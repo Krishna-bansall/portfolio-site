@@ -23,6 +23,9 @@ h1{
 .nav-color{
     color: #263D9E !important;
 }
+.navbar-collapse.collapse.in {
+  display: block!important;
+}
 .navbar-brand {
     font-family: "Poppins";
     font-size: 3rem;
@@ -213,7 +216,9 @@ h1{
       margin-top: 2rem;
       width: 100%;
     }
-  
+  .navbar-brand {
+    font-size: 2.2rem;
+      }
     #title {
       text-align: center;
     }
